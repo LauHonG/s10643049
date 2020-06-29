@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<body style="background-color:powderblue;">
+	<title>De Pizza</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+
+h1{
+	padding: middle;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("pic/pizza4.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {text-align: center;}
+
+body {
+  margin: 0;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 18px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+	<div class="topnav">
+    <a href="homepage.html">HOME</a>
+    <a href="menu.html">MENU</a>
+    <a href="about us.html">ABOUT US</a>
+    <a href="maps.html">LOCATION</a>  	
+</div>
+
+<br>
+<h1>Our location</h1>
+<p style="text-align:center;">12 Russell Ave, New Rochelle, NY 10801, USA</p>	
+<br>
+
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d767641.0109140032!2d-73.53280094507159!3d41.2740945525841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8e0213d2e51e546!2sPizzeria%20La%20Rosa!5e0!3m2!1szh-TW!2stw!4v1593425822494!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+</body>
+</html>
